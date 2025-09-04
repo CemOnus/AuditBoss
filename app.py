@@ -409,26 +409,32 @@ elif nav=="Auditors":
 # Certificates
 elif nav=="Certificates":
     st.subheader("Certificates")
-    st.dataframe(certs[["cert_id","client_name","standard","issue_date","expiry_date","status"]], use_container_width=True)
-        with st.expander("Issue New Certificate"):
-            client = st.selectbox("Client", clients["name"])
-            std = st.selectbox("Standard", sorted(clients["standard"].unique().tolist()))
-            issue = st.date_input("Issue Date", value=date.today())
-            expiry = st.date_input("Expiry Date", value=date.today() + timedelta(days=3*365))
-            status = st.selectbox("Status", ["Active","Suspended","Withdrawn","Expired"])
-            if st.button("Issue Certificate"):
+    st.dataframe(
+        certs[["cert_id","client_name","standard","issue_date","expiry_date","status"]],
+        use_container_width=True
+    )
+
+    with st.expander("Issue New Certificate"):
+        client = st.selectbox("Client", clients["name"])
+        std = st.selectbox("Standard", sorted(clients["standard"].unique().tolist()))
+        issue = st.date_input("Issue Date", value=date.today())
+        expiry = st.date_input("Expiry Date", value=date.today() + timedelta(days=3*365))
+        status = st.selectbox("Status", ["Active","Suspended","Withdrawn","Expired"])
+
+        if st.button("Issue Certificate"):
             new = pd.DataFrame([{
-            "cert_id": f"CB-{clients[clients['name']==client].iloc[0]['client_id']}-{std.split()[-1]}-{np.random.randint(1000,9999)}",
-            "client_id": clients[clients["name"]==client].iloc[0]["client_id"],
-            "client_name": client,
-            "standard": std,
-            "issue_date": pd.Timestamp(issue).normalize(),
-            "expiry_date": pd.Timestamp(expiry).normalize(),
-            "status": status
-        }])
-        certs2 = pd.concat([certs, new], ignore_index=True)
-        save_df("certificates.csv", certs2)
-        st.experimental_rerun()
+                "cert_id": f"CB-{clients[clients['name']==client].iloc[0]['client_id']}-{std.split()[-1]}-{np.random.randint(1000,9999)}",
+                "client_id": clients[clients["name"]==client].iloc[0]["client_id"],
+                "client_name": client,
+                "standard": std,
+                "issue_date": pd.Timestamp(issue).normalize(),
+                "expiry_date": pd.Timestamp(expiry).normalize(),
+                "status": status
+            }])
+            certs2 = pd.concat([certs, new], ignore_index=True)
+            save_df("certificates.csv", certs2)
+            st.experimental_rerun()
+
 
 # Invoicing
 elif nav=="Invoicing":
