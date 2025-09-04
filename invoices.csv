@@ -1,0 +1,49 @@
+invoice_id,quote_id,client_id,client_name,amount_usd,date_issued,due_date,status,description
+INV00001,Q0001,C002,Acme Medical,3600,2025-11-25,2025-12-25,Unpaid,Recertification audit fees
+INV00002,Q0002,C013,Blue Sun Packaging,3600,2025-10-17,2025-11-16,Paid,Surveillance 1 audit fees
+INV00003,Q0003,C050,Hooli Packaging,3600,2025-12-15,2026-01-14,Paid,Initial - Stage 2 audit fees
+INV00004,Q0004,C021,Soylent Energy,2100,2025-09-27,2025-10-27,Paid,Initial - Stage 1 audit fees
+INV00005,Q0008,C021,Soylent Energy,3000,2025-11-14,2025-12-14,Paid,Recertification audit fees
+INV00006,Q0011,C068,Cyberdyne Packaging,4500,2025-09-07,2025-10-07,Unpaid,Recertification audit fees
+INV00007,Q0013,C003,Stark Plastics,6000,2025-11-05,2025-12-05,Unpaid,Recertification audit fees
+INV00008,Q0014,C041,Globex Plastics,3600,2025-11-08,2025-12-08,Paid,Initial - Stage 2 audit fees
+INV00009,Q0017,C057,Umbrella Tech,1500,2025-11-25,2025-12-25,Unpaid,Initial - Stage 1 audit fees
+INV00010,Q0022,C028,Acme Medical,3000,2025-12-06,2026-01-05,Paid,Surveillance 2 audit fees
+INV00011,Q0023,C048,Wonka Medical,3000,2025-11-29,2025-12-29,Unpaid,Surveillance 1 audit fees
+INV00012,Q0029,C055,Wayne Logistics,1500,2025-10-12,2025-11-11,Paid,Initial - Stage 1 audit fees
+INV00013,Q0030,C028,Acme Medical,6000,2025-12-13,2026-01-12,Paid,Recertification audit fees
+INV00014,Q0031,C027,Gringotts Services,3600,2025-11-10,2025-12-10,Unpaid,Surveillance 1 audit fees
+INV00015,Q0032,C076,Stark Foods,6000,2025-09-09,2025-10-09,Unpaid,Recertification audit fees
+INV00016,Q0033,C065,Hooli Pharma,3000,2025-09-04,2025-10-04,Unpaid,Surveillance 2 audit fees
+INV00017,Q0035,C063,Monarch Pharma,2100,2025-11-02,2025-12-02,Unpaid,Surveillance 2 audit fees
+INV00018,Q0036,C068,Cyberdyne Packaging,2100,2025-11-30,2025-12-30,Paid,Surveillance 1 audit fees
+INV00019,Q0037,C060,Pied Piper Aerospace,3600,2025-10-06,2025-11-05,Unpaid,Surveillance 1 audit fees
+INV00020,Q0044,C066,Umbrella Aerospace,3600,2025-08-31,2025-09-30,Paid,Recertification audit fees
+INV00021,Q0047,C024,Dunder Mifflin Pharma,3000,2025-11-01,2025-12-01,Overdue,Surveillance 2 audit fees
+INV00022,Q0049,C012,Acme Energy,3000,2025-11-07,2025-12-07,Paid,Surveillance 2 audit fees
+INV00023,Q0054,C017,Cyberdyne Foods,4500,2025-09-16,2025-10-16,Unpaid,Initial - Stage 2 audit fees
+INV00024,Q0055,C045,Umbrella Packaging,3000,2025-11-13,2025-12-13,Paid,Initial - Stage 1 audit fees
+INV00025,Q0059,C022,Wonka Logistics,3600,2025-10-06,2025-11-05,Unpaid,Initial - Stage 2 audit fees
+INV00026,Q0060,C032,Cyberdyne Energy,3600,2025-11-23,2025-12-23,Overdue,Surveillance 2 audit fees
+INV00027,Q0061,C026,Tyrell Medical,6600,2025-09-27,2025-10-27,Paid,Recertification audit fees
+INV00028,Q0062,C062,Initech Aerospace,5100,2025-10-09,2025-11-08,Paid,Initial - Stage 2 audit fees
+INV00029,Q0063,C054,Hooli Automotive,1500,2025-09-19,2025-10-19,Paid,Surveillance 1 audit fees
+INV00030,Q0065,C054,Hooli Automotive,1500,2025-11-12,2025-12-12,Overdue,Initial - Stage 1 audit fees
+INV00031,Q0067,C016,Umbrella Packaging,3600,2025-09-03,2025-10-03,Paid,Surveillance 1 audit fees
+INV00032,Q0070,C027,Gringotts Services,3000,2025-10-19,2025-11-18,Paid,Surveillance 1 audit fees
+INV00033,Q0073,C006,Massive Dynamic Packaging,3600,2025-09-27,2025-10-27,Unpaid,Initial - Stage 1 audit fees
+INV00034,Q0075,C078,Aperture Packaging,3000,2025-10-18,2025-11-17,Paid,Surveillance 1 audit fees
+INV00035,Q0076,C007,Acme Manufacturing,4500,2025-09-21,2025-10-21,Paid,Initial - Stage 1 audit fees
+INV00036,Q0078,C023,Blue Sun Aerospace,3000,2025-10-28,2025-11-27,Unpaid,Surveillance 2 audit fees
+INV00037,Q0079,C032,Cyberdyne Energy,3000,2025-09-19,2025-10-19,Unpaid,Initial - Stage 1 audit fees
+INV00038,Q0083,C079,Wayne Medical,6000,2025-09-24,2025-10-24,Unpaid,Recertification audit fees
+INV00039,Q0085,C062,Initech Aerospace,3600,2025-11-12,2025-12-12,Unpaid,Surveillance 1 audit fees
+INV00040,Q0087,C053,Massive Dynamic Automotive,1500,2025-11-21,2025-12-21,Paid,Surveillance 1 audit fees
+INV00041,Q0088,C063,Monarch Pharma,1500,2025-10-28,2025-11-27,Paid,Surveillance 1 audit fees
+INV00042,Q0090,C029,Blue Sun Manufacturing,2100,2025-11-08,2025-12-08,Paid,Surveillance 1 audit fees
+INV00043,Q0095,C021,Soylent Energy,1500,2025-12-14,2026-01-13,Paid,Surveillance 1 audit fees
+INV00044,Q0096,C077,Cyberdyne Foods,3000,2025-09-26,2025-10-26,Paid,Surveillance 2 audit fees
+INV00045,Q0099,C080,Cyberdyne Plastics,4500,2025-10-20,2025-11-19,Overdue,Recertification audit fees
+INV00046,Q0102,C053,Massive Dynamic Automotive,5100,2025-09-07,2025-10-07,Paid,Initial - Stage 2 audit fees
+INV00047,Q0110,C038,Stark Packaging,3000,2025-09-29,2025-10-29,Unpaid,Initial - Stage 2 audit fees
+INV00048,Q0112,C016,Umbrella Packaging,3000,2025-12-14,2026-01-13,Unpaid,Surveillance 1 audit fees
