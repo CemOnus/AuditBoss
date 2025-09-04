@@ -1,0 +1,61 @@
+invoice_id,quote_id,client_id,client_name,amount_usd,date_issued,due_date,status,description
+INV00001,Q0001,C018,Client 18,8037,2025-07-03,2025-08-02,Paid,Surveillance 1 audit fees
+INV00002,Q0002,C021,Client 21,3232,2025-07-27,2025-08-26,Unpaid,Surveillance 2 audit fees
+INV00003,Q0003,C028,Client 28,3093,2025-07-09,2025-08-08,Paid,Initial - Stage 1 audit fees
+INV00004,Q0004,C012,Client 12,3186,2025-08-21,2025-09-20,Unpaid,Initial - Stage 1 audit fees
+INV00005,Q0005,C026,Client 26,6217,2025-07-03,2025-08-02,Paid,Initial - Stage 2 audit fees
+INV00006,Q0006,C006,Client 6,4694,2025-07-06,2025-08-05,Paid,Surveillance 1 audit fees
+INV00007,Q0007,C017,Client 17,3822,2025-07-19,2025-08-18,Unpaid,Initial - Stage 2 audit fees
+INV00008,Q0008,C040,Client 40,7650,2025-06-22,2025-07-22,Paid,Initial - Stage 1 audit fees
+INV00009,Q0009,C037,Client 37,8006,2025-06-23,2025-07-23,Overdue,Recertification audit fees
+INV00010,Q0010,C021,Client 21,2802,2025-07-17,2025-08-16,Unpaid,Surveillance 1 audit fees
+INV00011,Q0011,C002,Client 2,4512,2025-08-01,2025-08-31,Paid,Initial - Stage 1 audit fees
+INV00012,Q0012,C034,Client 34,6972,2025-07-28,2025-08-27,Paid,Initial - Stage 1 audit fees
+INV00013,Q0013,C019,Client 19,5307,2025-07-19,2025-08-18,Paid,Recertification audit fees
+INV00014,Q0014,C025,Client 25,3563,2025-06-07,2025-07-07,Paid,Initial - Stage 2 audit fees
+INV00015,Q0015,C040,Client 40,2953,2025-08-02,2025-09-01,Unpaid,Initial - Stage 1 audit fees
+INV00016,Q0016,C026,Client 26,8174,2025-06-24,2025-07-24,Paid,Surveillance 2 audit fees
+INV00017,Q0017,C037,Client 37,6152,2025-08-18,2025-09-17,Overdue,Initial - Stage 1 audit fees
+INV00018,Q0018,C017,Client 17,6981,2025-08-07,2025-09-06,Overdue,Surveillance 1 audit fees
+INV00019,Q0019,C030,Client 30,3998,2025-08-19,2025-09-18,Paid,Initial - Stage 2 audit fees
+INV00020,Q0020,C024,Client 24,6618,2025-06-10,2025-07-10,Paid,Surveillance 1 audit fees
+INV00021,Q0021,C030,Client 30,3235,2025-08-19,2025-09-18,Unpaid,Initial - Stage 2 audit fees
+INV00022,Q0022,C031,Client 31,4954,2025-08-02,2025-09-01,Paid,Surveillance 2 audit fees
+INV00023,Q0023,C028,Client 28,8365,2025-07-16,2025-08-15,Unpaid,Initial - Stage 2 audit fees
+INV00024,Q0024,C006,Client 6,8432,2025-08-15,2025-09-14,Overdue,Surveillance 2 audit fees
+INV00025,Q0025,C015,Client 15,6641,2025-07-14,2025-08-13,Paid,Initial - Stage 2 audit fees
+INV00026,Q0026,C025,Client 25,7284,2025-06-19,2025-07-19,Unpaid,Recertification audit fees
+INV00027,Q0027,C010,Client 10,7719,2025-08-21,2025-09-20,Paid,Initial - Stage 2 audit fees
+INV00028,Q0028,C001,Client 1,7642,2025-07-08,2025-08-07,Unpaid,Initial - Stage 1 audit fees
+INV00029,Q0029,C002,Client 2,2527,2025-07-14,2025-08-13,Paid,Recertification audit fees
+INV00030,Q0030,C028,Client 28,3041,2025-08-12,2025-09-11,Paid,Initial - Stage 1 audit fees
+INV00031,Q0031,C028,Client 28,4181,2025-07-21,2025-08-20,Paid,Surveillance 1 audit fees
+INV00032,Q0032,C010,Client 10,8100,2025-07-03,2025-08-02,Overdue,Surveillance 2 audit fees
+INV00033,Q0033,C001,Client 1,3707,2025-08-10,2025-09-09,Unpaid,Initial - Stage 1 audit fees
+INV00034,Q0034,C020,Client 20,3593,2025-07-30,2025-08-29,Paid,Surveillance 1 audit fees
+INV00035,Q0035,C020,Client 20,8005,2025-07-17,2025-08-16,Unpaid,Surveillance 2 audit fees
+INV00036,Q0036,C022,Client 22,6731,2025-07-01,2025-07-31,Paid,Initial - Stage 2 audit fees
+INV00037,Q0037,C007,Client 7,6998,2025-06-26,2025-07-26,Paid,Surveillance 2 audit fees
+INV00038,Q0038,C017,Client 17,6259,2025-06-17,2025-07-17,Overdue,Surveillance 1 audit fees
+INV00039,Q0039,C023,Client 23,4226,2025-08-01,2025-08-31,Paid,Recertification audit fees
+INV00040,Q0040,C024,Client 24,4644,2025-06-26,2025-07-26,Paid,Recertification audit fees
+INV00041,Q0041,C002,Client 2,8261,2025-07-04,2025-08-03,Paid,Initial - Stage 2 audit fees
+INV00042,Q0042,C007,Client 7,3803,2025-06-06,2025-07-06,Unpaid,Initial - Stage 2 audit fees
+INV00043,Q0043,C039,Client 39,8457,2025-08-20,2025-09-19,Paid,Surveillance 2 audit fees
+INV00044,Q0044,C024,Client 24,5214,2025-06-27,2025-07-27,Paid,Surveillance 2 audit fees
+INV00045,Q0045,C039,Client 39,4103,2025-08-18,2025-09-17,Paid,Surveillance 1 audit fees
+INV00046,Q0046,C016,Client 16,5696,2025-08-17,2025-09-16,Unpaid,Surveillance 1 audit fees
+INV00047,Q0047,C012,Client 12,2895,2025-07-13,2025-08-12,Paid,Initial - Stage 1 audit fees
+INV00048,Q0048,C030,Client 30,3719,2025-07-14,2025-08-13,Overdue,Initial - Stage 1 audit fees
+INV00049,Q0049,C009,Client 9,5558,2025-06-08,2025-07-08,Paid,Surveillance 1 audit fees
+INV00050,Q0050,C039,Client 39,7039,2025-07-16,2025-08-15,Overdue,Initial - Stage 1 audit fees
+INV00051,Q0051,C036,Client 36,8499,2025-07-18,2025-08-17,Paid,Initial - Stage 2 audit fees
+INV00052,Q0052,C032,Client 32,4844,2025-06-10,2025-07-10,Overdue,Surveillance 2 audit fees
+INV00053,Q0053,C008,Client 8,5898,2025-08-17,2025-09-16,Paid,Initial - Stage 1 audit fees
+INV00054,Q0054,C001,Client 1,7847,2025-07-27,2025-08-26,Paid,Surveillance 1 audit fees
+INV00055,Q0055,C002,Client 2,7065,2025-06-27,2025-07-27,Overdue,Surveillance 2 audit fees
+INV00056,Q0056,C020,Client 20,6600,2025-07-07,2025-08-06,Unpaid,Initial - Stage 1 audit fees
+INV00057,Q0057,C030,Client 30,6186,2025-07-01,2025-07-31,Unpaid,Recertification audit fees
+INV00058,Q0058,C009,Client 9,3931,2025-08-09,2025-09-08,Overdue,Initial - Stage 2 audit fees
+INV00059,Q0059,C022,Client 22,4616,2025-08-02,2025-09-01,Paid,Recertification audit fees
+INV00060,Q0060,C020,Client 20,6793,2025-07-18,2025-08-17,Unpaid,Initial - Stage 2 audit fees
